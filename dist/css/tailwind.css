@@ -479,29 +479,44 @@ video {
 .border-solid {
   border-style: solid;
 }
-.border-\[\#353535\] {
+.border-deep {
   --tw-border-opacity: 1;
-  border-color: rgb(53 53 53 / var(--tw-border-opacity));
+  border-color: rgb(194 194 194 / var(--tw-border-opacity));
 }
-.bg-green-200 {
+.bg-body {
   --tw-bg-opacity: 1;
-  background-color: rgb(187 247 208 / var(--tw-bg-opacity));
-}
-.bg-green-300 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(134 239 172 / var(--tw-bg-opacity));
+  background-color: rgb(23 27 26 / var(--tw-bg-opacity));
 }
 .bg-header {
   --tw-bg-opacity: 1;
   background-color: rgb(18 20 20 / var(--tw-bg-opacity));
 }
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
+}
+.font-main {
+  font-family: DM Sans, sans-serif;
+}
+.text-\[18px\] {
+  font-size: 18px;
+}
+.text-\[32px\] {
+  font-size: 32px;
+}
+.font-normal {
+  font-weight: 400;
+}
+.font-semibold {
+  font-weight: 600;
+}
+.text-main {
+  --tw-text-opacity: 1;
+  color: rgb(245 189 77 / var(--tw-text-opacity));
+}
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 @media (min-width: 768px) {
   .md\:w-1\/3 {
